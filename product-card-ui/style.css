@@ -18,6 +18,7 @@ body
 .container
 {
     position: relative;
+    perspective: 500px;
 }
 
 .container .card
@@ -28,6 +29,7 @@ body
     background: #232323;
     border-radius: 20px;
     overflow: hidden;
+    transform-style: preserve-3d;
 }
 
 .container .card:before
